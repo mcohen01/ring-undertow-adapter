@@ -1,7 +1,7 @@
-(defproject org.clojars.mcohen01/ring-undertow-adapter "0.1.3"
+(defproject org.clojars.mcohen01/ring-undertow-adapter "0.1.4"
   :description "Ring Underow adapter."
   :url "http://github.com/piranha/ring-adapter-undertow"
   :license {:name "ISC License"
             :url "http://opensource.org/licenses/ISC"}
-  :dependencies [[io.undertow/undertow-core "1.0.0.Final"]]
+  :dependencies [[io.undertow/undertow-core "1.0.1.Final"]]
   :profiles {:dev {:dependencies [[clj-http "0.7.6"]]}})
